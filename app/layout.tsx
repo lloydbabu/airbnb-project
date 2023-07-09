@@ -23,7 +23,7 @@ export default function RootLayout({
       <body>
         {/* <ClientOnly> */}
 
-        {/* <Modal isOpen title={"Login"}/> */}
+        <Modal isOpen title={"Login"}/>
           <Navbar />
         {/* </ClientOnly> */}
         {children}
